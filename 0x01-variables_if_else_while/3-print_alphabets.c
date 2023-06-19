@@ -1,21 +1,18 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
 /**
 *main - Entry point
 *Description: ('print alphhabets lowercase and uppercase')
-*Return: always 0
+*Return: always 0 (success)
 */
 int main(void)
 {
-int n = 97;
-int m = 65;
-while (n <= 122)
-{
-putchar(n);
-}
-while (m <= 90)
-{
-putchar(m);
-}
-putchar('\n');
+char low;
+for (low = 'a'; low <= 'z'; low++)
+putchar (low);
+for (low = 'A'; low <= 'Z'; low++)
+putchar (low);
+putchar ('\n');
 return (0);
 }
