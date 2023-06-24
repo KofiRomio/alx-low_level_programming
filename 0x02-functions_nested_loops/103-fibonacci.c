@@ -1,9 +1,9 @@
-#include <stdlib.h>
+#include "main.h"
 /**
-*main - entry point
-*Description: prints the sum of even-valued
-*Fibonacci sequence not exceed 4000000
-*Return: Always 0 (success)
+* main - entry point
+* Description: prints the sum of even-valued 
+* Fibonacci sequence not exceed 4000000
+* Return: Always 0 (success)
 */
 int main(void)
 {
@@ -19,6 +19,7 @@ total_sum += sum;
 fib1 = fib2;
 fib2 = sum;
 }
-printf("%.0f\n", total_sum);
+printf("%.of\n", total_sum);
 return (0);
 }
+
