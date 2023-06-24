@@ -18,7 +18,6 @@ if (sum > 4000000)
 break;
 if ((sum % 2) == 0)
 total_sum += sum;
-printf("%lu", sum);
 fib1 = fib2;
 fib2 = sum;
 }
