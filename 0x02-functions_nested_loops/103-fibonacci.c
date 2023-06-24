@@ -2,8 +2,7 @@
 /**
 *main - entry point
 *Description: prints the sum of even-valued
-*Fibonacci sequence not exceed 4,000,000
-*starting with 1 and 2 followed by a new line
+*Fibonacci sequence not exceed 4000000
 *Return: Always 0 (success)
 */
 int main(void)
