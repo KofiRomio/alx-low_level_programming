@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 /**
 *main - entry point
 *Description: prints the first 50
