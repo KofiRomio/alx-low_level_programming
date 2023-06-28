@@ -13,5 +13,5 @@ a++;
 {
 _putchar(a);
 }
-_putchar(10);
+_putchar('\n');
 }
