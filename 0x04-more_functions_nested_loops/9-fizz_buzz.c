@@ -1,34 +1,29 @@
 #include "main.h"
-#include <stdio.h>
 /**
-*main - prints  the numbers from 1 to 100, followed by a new line
-*but multiples of three prints first instead if the number
-*and for the multiples of five prints Buzz
-*Return: always 0
+*main - prints numbers 1 - 100 followed by a new line
+*numbers that are multiples of 3 print Fizz
+*numbers that are multiples of 5 print Buzz
+*numbers that are multiples of 3 and 5 print FizzBuzz
+*each number and word to be separated by space
+*Return: Always 0 (Success)
 */
 int main(void)
 {
-int i;
-for (i = 1; i <= 100; i++)
+int num;
+for (num = 1; num <= 100; num++)
 {
-if (i % 3 == 0 && i % 5 != 0)
-{
-printf(" Fizz");
-}
-else if (i % 5 == 0 && i % 3 != 0)
-{
-printf(" Buzz");
-}
-else if (i % 3 == 0 && i % 5 != 0)
-{
-printf(" FizzBuzz");
-}
-else if (i = 100)
-{
-printf("%d",i);
-}
+if (num % 3 == 0 && !(num % 5 == 0))
+printf("Fizz");
+else if (num % 5 == 0 && !(num % 3 == 0))
+printf("Buzz");
+else if (num % 3 == 0 && num % 5 == 0)
+printf("FizzBuzz");
+else
+printf("%d", num);
+if (num != 100)
+printf(" ");
+else
 printf("\n");
 }
 return (0);
-
 }
