@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-*set_string - swts the value of a pointer to a char
+*set_string - writes the value of a pointer to a char
 *@s: pointer to pointer
 *@to: pointer char
 */
